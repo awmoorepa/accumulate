@@ -9,7 +9,7 @@ import game
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    print(f'Hello (laptop version), {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     n = 5
     print(f'factorial of {n} is {factorial.factorial(5)}')
     game.run_accumulate_game()
