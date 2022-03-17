@@ -4,6 +4,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 
 import factorial
+import game
 
 
 def print_hi(name):
@@ -11,6 +12,7 @@ def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     n = 5
     print(f'factorial of {n} is {factorial.factorial(5)}')
+    game.run_accumulate_game()
 
 
 # Press the green button in the gutter to run the script.
